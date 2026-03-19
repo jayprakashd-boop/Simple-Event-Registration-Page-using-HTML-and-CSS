@@ -1,0 +1,155 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #0d47a1;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.description {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Event Info */
+.event-info table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+}
+
+.event-info th, .event-info td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.event-info tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* Form Container */
+.form-container {
+    width: 50%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Fieldsets */
+fieldset {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+legend {
+    font-weight: bold;
+    background: #e3f2fd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #0d47a1;
+    outline: none;
+}
+
+/* Inline options */
+.inline {
+    display: flex;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+/* Declaration */
+.declaration {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Buttons */
+.buttons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d47a1;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+/* Participants Table */
+.participants {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.participants table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.participants th, .participants td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.participants th {
+    background-color: #0d47a1;
+    color: white;
+}
+
+.participants tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.participants tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #0d47a1;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
